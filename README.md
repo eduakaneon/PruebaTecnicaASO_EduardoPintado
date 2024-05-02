@@ -1,6 +1,6 @@
 # Proyecto Servicio Hello World
 
-Este proyecto implementa un servicio para realizar operaciones de simulación en la tienda en línea.
+Este proyecto implementa un servicio para realizar operaciones de simulación.
 
 ## Lógica del Servicio
 
@@ -26,11 +26,11 @@ El servicio `SrvHelloWorld` contiene la lógica para manejar las solicitudes HTT
 
 ## Capa de Acceso a Datos
 
-El componente `Dao` contiene la lógica para mapear los datos de entrada a datos de salida.
+El componente `DAO` contiene la lógica para mapear los datos de entrada a datos de salida.
 
 ## DTOs (Objetos de Transferencia de Datos)
 
-Se utilizan los siguientes DTOs para transportar datos entre las capas:
+Se utilizan los siguientes DTOs para transportar datos entre las capas(Facade, Bussiness y DAO):
 
 ### DTO de Entrada
 
@@ -56,9 +56,21 @@ public class DataOut {
     private Details details;
 }
 ```
+### Validaciones:
+
+Se han realizado distintas validaciones en las clases se aportan sus etiquetas y funcionalidades:
+
+ @Valid = Que se inserte un tipo de dato valido.
+ @Pattern(regexp = "[A-Z_]+") = Que se utilizen mayusculas.
+ @NotNull = Que no se introduzcan valores nulos.
+ @NotEmpty = Que no se introduzcan valores vacios.
+ @Pattern(regexp = "TDC") = Que el valor sea igual a TDC.
+ @Size(max = 2) = Que el maximo numero de caracteres sea 2.
+ 
+
 ### Ejemplo request Postman
 
-URL: http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789
+URL: http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789 (Este ultimo dato es el valor del {nuip})
 JSON:
 {
   "details": {
