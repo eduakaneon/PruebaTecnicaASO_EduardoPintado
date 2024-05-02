@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc884efa-2ee2-40d3-803d-95b5d04b0506" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/asoexample_first_service/src/main/java/com/bbva/uuaa/helloWorld/facade/v0/mapper/impl/SrvHelloWorldMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/asoexample_first_service.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/asoexample_first_service.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/generacionFacade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/generacionFacade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/generacionSN.xml" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/generacionSN.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/src/main/java/com/bbva/uuaa/helloWorld/facade/v0/ISrvHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/src/main/java/com/bbva/uuaa/helloWorld/facade/v0/ISrvHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/src/main/java/com/bbva/uuaa/helloWorld/facade/v0/SrvHelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/src/main/java/com/bbva/uuaa/helloWorld/facade/v0/dto/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asoexample_first_service/src/main/resources/META-INF/spring/business-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/asoexample_first_service/src/main/resources/META-INF/spring/business-service.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/asoexample_first_service" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../settingsAso.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2esC6qRSTFMDW7cossGCDTrCscx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.helloWorld [clean,install].executor": "Run",
+    "Maven.helloWorld [clean].executor": "Run",
+    "Remote JVM Debug.Unnamed.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/eduardopintado/Desktop/ASO-APX/ARQ_ASO/ARQ_ASO/Development/SARrc_Projects/PruebaTecnica_ASO_EduardoPintado",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bbva.uuaa.helloWorld.facade.v0.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hector\Documents\ARQ_ASO\ARQ_ASO\ARQ_ASO\Development\SARrc_Projects\asoexample_first_service EJERCICIO completo\asoexample_first_service\src\main\java\com\bbva\uuaa\helloWorld\business\v0\dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bbva.uuaa.helloWorld.facade.v0.dto" />
+      <recent name="com.bbva.uuaa.helloWorld.business.v0.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="helloWorld" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8789" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8789" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-995e55e7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc884efa-2ee2-40d3-803d-95b5d04b0506" name="Changes" comment="" />
+      <created>1712683726551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712683726551</updated>
+      <workItem from="1713796681825" duration="7042000" />
+      <workItem from="1714036934608" duration="3134000" />
+      <workItem from="1714208399074" duration="13083000" />
+      <workItem from="1714470579355" duration="2108000" />
+      <workItem from="1714503688501" duration="4580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
