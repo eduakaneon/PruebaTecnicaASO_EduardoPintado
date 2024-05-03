@@ -60,12 +60,12 @@ public class DataOut {
 
 Se han realizado distintas validaciones en las clases se aportan sus etiquetas y funcionalidades:
 
- @Valid = Que se inserte un tipo de dato valido.
- @Pattern(regexp = "[A-Z_]+") = Que se utilizen mayusculas.
- @NotNull = Que no se introduzcan valores nulos.
- @NotEmpty = Que no se introduzcan valores vacios.
- @Pattern(regexp = "TDC") = Que el valor sea igual a TDC.
- @Size(max = 2) = Que el maximo numero de caracteres sea 2.
+ - @Valid = Que se inserte un tipo de dato valido.
+ - @Pattern(regexp = "[A-Z_]+") = Que se utilizen mayusculas.
+ - @NotNull = Que no se introduzcan valores nulos.
+ - @NotEmpty = Que no se introduzcan valores vacios.
+ - @Pattern(regexp = "TDC") = Que el valor sea igual a TDC.
+ - @Size(max = 2) = Que el maximo numero de caracteres sea 2.
  
 
 ### Ejemplo request Postman
@@ -87,3 +87,17 @@ JSON:
     }
   }
 }
+
+### Funcionamiento
+
+1. Arrancar el contenedor de Docker.
+2. Situar el proyecto en la siguiente ruta: /ASO-APX/ARQ_ASO/ARQ_ASO/Development/SARrc_Projects
+3. Realizar configuraciones del entorno de trabajo y asegurarse de que la version de Java sea la 1.8 y que los settings esten bien configurados con la ruta de tu equipo.
+4. Hacer clean install.
+5. En el terminal ir a la siguiente ruta: /ASO-APX/ARQ_ASO/ARQ_ASO/Development/SARrc_Projects/PruebaTecnica_ASO_EduardoPintado/asoexample_first_service/target
+6. Ejecutar por orden los siguientes comandos:
+- aso-cli deploy helloworld-facade.jar asoContainer --reload=false
+- aso-cli deploy helloworld.jar asoContainer --reload=false
+- aso-cli deploy helloworld-sn.jar asoContainer --reload=true
+7. Esperar unos segundos y hacer la solicitud en Postman añadiendo un body de tipo JSON y con la URL antes proporcionada.
+8. Comprobar que la respuesta sea la esperada: 201 POST, 204 PUT.
