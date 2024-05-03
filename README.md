@@ -70,8 +70,8 @@ Se han realizado distintas validaciones en las clases se aportan sus etiquetas y
 
 ### Ejemplo request Postman
 
-URL: http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789 (Este ultimo dato es el valor del {nuip})
-JSON:
+- URL: http://localhost:7500/TechArchitecture/helloWorld/v0/simulations/123456789 (Este ultimo dato es el valor del {nuip})
+- JSON:
 {
   "details": {
     "offerType": "CARD_HOLDER",
